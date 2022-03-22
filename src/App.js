@@ -1,11 +1,19 @@
-import logo from './logo.svg';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
+//state or variables go here
+
+
+//functions go here
+
+
+//return statement goes here * jsx
   return (
     <div className="App">
+      <Header/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
